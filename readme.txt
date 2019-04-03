@@ -1,6 +1,13 @@
+== We Marketing e Design ==
+
+Esse projeto foi desenvolvido a partir do Tema Fukasawa que está publicado no repositório oficial de temas do WordPress no seguinte endereço: https://wordpress.org/themes/fukasawa
+
+Abaixo seguem as informações do README original do Tema, todas as informações específicas desse projeto estarão acima da linha divisória abaixo ;)
+
+=============================================================================
+
 === Fukasawa ===
 Contributors: Anlino
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=anders%40andersnoren%2ese&lc=US&item_name=Free%20WordPress%20Themes%20from%20Anders%20Noren&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Requires at least: 4.4
 Tested up to: 5.0
 Stable tag: trunk
@@ -33,9 +40,6 @@ Source: http://www.unsplash.com
 Flexslider jQuery Slider
 License: GNU GPL 2.0
 Source: http://flexslider.woothemes.com
-
-
-== Frequently Asked Questions ==
 
 
 == Use the gallery post format 
