@@ -109,7 +109,7 @@
 				<div class="credits">
 
 					<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a> &copy; <?php echo date( 'Y' ); ?></p>
-					<p><?php _e( 'Desenvolvido com', 'fukasawa' ); ?> <a href="https://www.wordpress.org">WordPress</a></p>
+					<p><?php _e( 'Powered by', 'fukasawa' ); ?> <a href="https://www.wordpress.org">WordPress</a></p>
 
 				</div>
 
