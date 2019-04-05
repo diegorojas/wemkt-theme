@@ -105,6 +105,29 @@
 					</div>
 
 				<?php endif; ?>
+				
+				<div class="btn-sociais">
+					<?php
+                    $fukasawa_fb_link = get_theme_mod( 'fukasawa_fb_link' );
+                	?>
+                        <p><a class="btn-fb" href="<?php echo $fukasawa_fb_link; ?>"> Facebook
+                        </a></p>
+                    <?php
+                    $fukasawa_insta_link = get_theme_mod( 'fukasawa_insta_link' );
+                	?>
+                        <p><a class="btn-insta" href="<?php echo $fukasawa_insta_link; ?>"> Instagram
+                        </a></p>
+                    <?php
+                    $fukasawa_twitter_link = get_theme_mod( 'fukasawa_twitter_link' );
+                	?>
+                        <p><a class="btn-twitter" href="<?php echo $fukasawa_twitter_link; ?>"> Twitter
+                        </a></p>
+                    					<?php
+                    $fukasawa_yt_link = get_theme_mod( 'fukasawa_yt_link' );
+                	?>
+                        <p><a class="btn-yt" href="<?php echo $fukasawa_yt_link; ?>"> YouTube
+                        </a></p>
+                </div>
 
 				<div class="credits">
 

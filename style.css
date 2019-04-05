@@ -283,7 +283,7 @@ body a,
 .main-menu:before,
 .widgets:before,
 .widget + .widget:before,
-.credits:before {
+.credits:before, .btn-sociais:before {
 	content: "";
 	display: block;
 	width: 48px;
@@ -658,6 +658,36 @@ body a,
 	color: #fff;
 }
 
+/* Social Icon Buttons --------------------------------------- */
+.btn-sociais a {
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.btn-sociais a:hover {
+	color: #000;
+	font-size: 1.8em;
+}
+
+.btn-sociais a.btn-fb:before {
+	font-family:"Genericons";
+	content: '\f203'; 
+}
+
+.btn-sociais a.btn-insta:before {
+	font-family:"Genericons";
+	content: '\f215'; 
+}
+
+.btn-sociais a.btn-twitter:before {
+	font-family:"Genericons";
+	content: '\f202'; 
+}
+
+.btn-sociais a.btn-yt:before {
+	font-family:"Genericons";
+	content: '\f213'; 
+}
 
 
 /* -------------------------------------------------------------------------------- */
