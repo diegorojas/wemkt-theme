@@ -6,7 +6,7 @@
 
 class fukasawa_child_Customize {
 
-   function fukasawa_register( $wp_customize ) {
+	function fukasawa_register( $wp_customize ) {
 
 	$wp_customize->add_section( 'fukasawa_social_settings',
             array(
@@ -84,10 +84,36 @@ class fukasawa_child_Customize {
                 'description' => '',
             )
         ); 
+
+
+        // Linkedin custom Link
+        $wp_customize->add_setting( 'fukasawa_linkedin_link',
+            array(
+                'sanitize_callback' => 'esc_url',
+                'default'           => esc_url( home_url( '/' )).esc_html__('', 'fukasawa'),
+                'transport'         => 'refresh',
+            )
+        );
+        $wp_customize->add_control( 'fukasawa_linkedin_link',
+            array(
+                'type'  =>'URL',
+                'label'       => esc_html__('URL do Linkedin', 'fukasawa'),
+                'section'     => 'fukasawa_social_settings',
+                'description' => '',
+            )
+        );
 	}
 }
 
 // Setup the Theme Customizer
 add_action( 'customize_register' , array( 'fukasawa_child_Customize' , 'fukasawa_register' ) );
+
+// Add Theme Support for responsive Videos
+add_theme_support( 'jetpack-responsive-videos' );
+
+// Post formats
+add_post_type_support( 'jetpack-portfolio', 'post-formats', array(
+     'image', 'video', 'gallery'
+) );
 
 ?>

@@ -107,26 +107,45 @@
 				<?php endif; ?>
 				
 				<div class="btn-sociais">
+
+					<h3 class="widget-title"><?php _e( 'FOLLOW US', 'fukasawa' ); ?></h3>
+
 					<?php
                     $fukasawa_fb_link = get_theme_mod( 'fukasawa_fb_link' );
                 	?>
-                        <p><a class="btn-fb" href="<?php echo $fukasawa_fb_link; ?>"> Facebook
-                        </a></p>
+	                	<?php if ( $fukasawa_fb_link ) { ?>
+	                        <a class="btn-fb" href="<?php echo $fukasawa_fb_link; ?>" alt="Facebook">
+	                        </a>
+	                    <?php } ?>
                     <?php
                     $fukasawa_insta_link = get_theme_mod( 'fukasawa_insta_link' );
                 	?>
-                        <p><a class="btn-insta" href="<?php echo $fukasawa_insta_link; ?>"> Instagram
-                        </a></p>
+                		<?php if ( $fukasawa_insta_link ) { ?>
+                       		<a class="btn-insta" href="<?php echo $fukasawa_insta_link; ?>" alt="Instagram">
+                        	</a>
+                        <?php } ?>
                     <?php
                     $fukasawa_twitter_link = get_theme_mod( 'fukasawa_twitter_link' );
                 	?>
-                        <p><a class="btn-twitter" href="<?php echo $fukasawa_twitter_link; ?>"> Twitter
-                        </a></p>
-                    					<?php
+                		<?php if ( $fukasawa_twitter_link ) { ?>
+	                        <a class="btn-twitter" href="<?php echo $fukasawa_twitter_link; ?>" alt="Twitter"> 
+	                        </a>
+                        <?php } ?>
+                    <?php
                     $fukasawa_yt_link = get_theme_mod( 'fukasawa_yt_link' );
                 	?>
-                        <p><a class="btn-yt" href="<?php echo $fukasawa_yt_link; ?>"> YouTube
-                        </a></p>
+                		<?php if ( $fukasawa_yt_link ) { ?>
+	                        <a class="btn-yt" href="<?php echo $fukasawa_yt_link; ?>" alt="YouTube">
+	                        </a>
+                        <?php } ?>
+
+                    <?php
+                    $fukasawa_linkedin_link = get_theme_mod( 'fukasawa_linkedin_link' );
+                	?>
+                		<?php if ( $fukasawa_linkedin_link ) { ?>
+	                        <a class="btn-linkedin" href="<?php echo $fukasawa_linkedin_link; ?>" alt="Linkedin">
+	                        </a>
+                        <?php } ?>
                 </div>
 
 				<div class="credits">
