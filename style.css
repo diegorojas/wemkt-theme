@@ -383,7 +383,11 @@ body a,
 /* Widget text --------------------------------------- */
 
 
-.widget-content .textwidget { line-height: 150%; }
+.widget-content .textwidget { 
+	line-height: 150%;
+    color: #FFF;
+    font-size: 1.2em; 
+}
 
 .widget-content .textwidget a { color: #999; }
 .widget-content .textwidget a:hover { color: #019EBD; text-decoration: none; }
