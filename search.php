@@ -2,19 +2,19 @@
 
 <div class="content">
 
-<?php if ( have_posts() ) : ?>
-
+<?php if ( have_posts() ) :
+$paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+?>
 			<div class="page-title">
 				
 				<div class="section-inner">
 		
 					<h4>
-						<?php 
-						echo sprintf( __( 'Search results for: "%s"', 'Variable: search query text', 'fukasawa' ), get_search_query() );
-						?>
+						<?php echo _e( 'Search results for:', 'fukasawa' ) ; ?>
 						<div class="clear"></div>
-						
 					</h4>
+
+					<?php get_search_form(); ?>
 							
 				</div><!-- .section-inner -->
 				
@@ -57,6 +57,20 @@
 	</div><!-- .post -->
 
 <?php endif; ?>
+
+	<?php if ( $wp_query->max_num_pages > 1 ) : ?>
+		
+		<div class="archive-nav">
+				
+			<?php echo get_next_posts_link( __( 'Older posts', 'fukasawa' ) . ' &rarr;' ); ?>
+				
+			<?php echo get_previous_posts_link( '&larr; ' . __( 'Newer posts', 'fukasawa' ) ); ?>
+			
+			<div class="clear"></div>
+						
+		</div><!-- .archive-nav -->
+						
+	<?php endif; ?>
 
 </div><!-- .content -->
 

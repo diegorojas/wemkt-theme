@@ -50,9 +50,7 @@ get_header(); ?>
 						
 		</div><!-- .archive-nav -->
 						
-	<?php endif; ?>
-	<div class="rodape-we"></div>
-	
+	<?php endif; ?>	
 </div><!-- .content -->
-								
+	<div class="rodape-we"></div>							
 <?php get_footer(); ?>

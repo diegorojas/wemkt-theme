@@ -128,6 +128,6 @@
 	endif; 
 	
 	?>
-	<div class="rodape-we"></div>
 </div><!-- .content -->	
+	<div class="rodape-we"></div>
 <?php get_footer(); ?>

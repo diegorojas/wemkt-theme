@@ -956,9 +956,9 @@ body a,
 
 .rodape-we {
 	background-image: url(images/back-rodape.png);
-    background-size: 190%;
+    background-size: 170%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom center;
     margin: 0px auto 0px;
     height: 70px;
     width: auto;
@@ -972,6 +972,16 @@ body a,
     padding-bottom: 10px;
     margin: -20px 0 0;
     font-size: 1.4em;
+}
+
+.search .page-title h4 {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: none;
+    margin: 0 10px;
+    line-height: 120%;
+    font-weight: 700;
+    color: #FFF;
 }
 
 .post-type-archive-jetpack-portfolio .format-gallery .post-excerpt {
