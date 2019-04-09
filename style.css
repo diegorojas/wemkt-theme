@@ -964,7 +964,7 @@ body a,
     width: auto;
 }
 
-.post-type-archive-jetpack-portfolio h4.jetpack-portfolio {
+.post-type-archive-jetpack-portfolio h4.jetpack-portfolio, .blog h4.jetpack-portfolio {
 	color: #FFF;
 	text-transform: uppercase;
 	text-align: center;
