@@ -1013,6 +1013,7 @@ body a,
 	margin-bottom: 40px;
 	word-break: break-word;
 	-ms-word-break: break-word;
+	color: #39B54A;
 }
 
 .post.single .post-title a { color: #333; }
@@ -2155,7 +2156,7 @@ p.comment-form-author { margin-right: 5%; }
 	float: right;
 	font-weight: 400;
 	font-style: italic;
-	color: #999;
+	color: #666;
 }
 
 
@@ -2376,6 +2377,36 @@ img#wpstats { display: none; }
 /* pagination */
 
 .no-js .archive-nav { display: block; }
+
+
+/* -------------------------------------------------------------------------------- */
+/*	We Colors
+/* -------------------------------------------------------------------------------- */
+
+.we-black { 
+	color: #2E2925;
+}
+.we-orange { 
+	color: #D1AE1E;
+}
+.we-low-green { 
+	color: #C4E76A;
+}
+.we-green { 
+	color: #6CC049;
+}
+.we-high-green { 
+	color: #39B54A;
+}
+.we-low-gray { 
+	color: #A9ABA0;
+}
+.we-gray { 
+	color: #7C858C;
+}
+.we-high-gray { 
+	color: #3D4542;
+}
 
 
 /* -------------------------------------------------------------------------------- */

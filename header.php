@@ -114,28 +114,28 @@
                     $fukasawa_fb_link = get_theme_mod( 'fukasawa_fb_link' );
                 	?>
 	                	<?php if ( $fukasawa_fb_link ) { ?>
-	                        <a class="btn-fb" href="<?php echo $fukasawa_fb_link; ?>" alt="Facebook">
+	                        <a class="btn-fb" href="<?php echo $fukasawa_fb_link; ?>" target="_blank" alt="Facebook">
 	                        </a>
 	                    <?php } ?>
                     <?php
                     $fukasawa_insta_link = get_theme_mod( 'fukasawa_insta_link' );
                 	?>
                 		<?php if ( $fukasawa_insta_link ) { ?>
-                       		<a class="btn-insta" href="<?php echo $fukasawa_insta_link; ?>" alt="Instagram">
+                       		<a class="btn-insta" href="<?php echo $fukasawa_insta_link; ?>" target="_blank" alt="Instagram">
                         	</a>
                         <?php } ?>
                     <?php
                     $fukasawa_twitter_link = get_theme_mod( 'fukasawa_twitter_link' );
                 	?>
                 		<?php if ( $fukasawa_twitter_link ) { ?>
-	                        <a class="btn-twitter" href="<?php echo $fukasawa_twitter_link; ?>" alt="Twitter"> 
+	                        <a class="btn-twitter" href="<?php echo $fukasawa_twitter_link; ?>" target="_blank" alt="Twitter"> 
 	                        </a>
                         <?php } ?>
                     <?php
                     $fukasawa_yt_link = get_theme_mod( 'fukasawa_yt_link' );
                 	?>
                 		<?php if ( $fukasawa_yt_link ) { ?>
-	                        <a class="btn-yt" href="<?php echo $fukasawa_yt_link; ?>" alt="YouTube">
+	                        <a class="btn-yt" href="<?php echo $fukasawa_yt_link; ?>" target="_blank" alt="YouTube">
 	                        </a>
                         <?php } ?>
 
@@ -143,7 +143,7 @@
                     $fukasawa_linkedin_link = get_theme_mod( 'fukasawa_linkedin_link' );
                 	?>
                 		<?php if ( $fukasawa_linkedin_link ) { ?>
-	                        <a class="btn-linkedin" href="<?php echo $fukasawa_linkedin_link; ?>" alt="Linkedin">
+	                        <a class="btn-linkedin" href="<?php echo $fukasawa_linkedin_link; ?>" target="_blank" alt="Linkedin">
 	                        </a>
                         <?php } ?>
                 </div>
