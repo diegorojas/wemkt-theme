@@ -1519,6 +1519,7 @@ img.alignnone,
 
 .post-content input[type="text"],
 .post-content input[type="tel"],
+.post-content input[type="email"],
 .post-content input[type="url"],
 .post-content input[type="password"],
 .post-content textarea {
@@ -2490,7 +2491,7 @@ img#wpstats { display: none; }
 	.content,
 	.content.thin { 
 		max-width: 90%; 
-		margin: 5% auto;
+		margin: 0% auto;
 	}
 
 	/* sidebar */
@@ -2711,7 +2712,8 @@ img#wpstats { display: none; }
 	body.single-post .content.thin,
 	body.page .content.thin,
 	body.single-attachment .content.thin { 
-		margin: 0; 
+		margin: 0;
+		padding: 0;
 		max-width: 100%;
 	}
 	
