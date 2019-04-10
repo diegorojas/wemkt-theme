@@ -2,6 +2,8 @@
 
 Esse projeto foi desenvolvido a partir do Tema Fukasawa que está publicado no repositório oficial de temas do WordPress no seguinte endereço: https://wordpress.org/themes/fukasawa
 
+O Tema pai (Fukasawa) precisa estar Instalado mas não Ativo para o funcionamento correto deste Tema.
+
 Abaixo seguem as informações do README original do Tema, todas as informações específicas desse projeto estarão acima da linha divisória abaixo ;)
 
 =============================================================================
