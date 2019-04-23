@@ -4,6 +4,14 @@
 																	                    
 	<?php if ( have_posts() ) :
 
+		if ( is_home() )
+			echo 	'<div class="page-title">
+						<div class="section-inner">
+							<h4 class="jetpack-portfolio">Blog</h4>
+							<div class="clear"></div>
+						</div>		
+					</div>';
+
 		$paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
 
 		$archive_title = '';
@@ -42,15 +50,6 @@
 			</div><!-- .page-title -->
 
 		<?php endif; ?>
-
-		<?php if ( is_home() ) { ?>
-			<div class="page-title">
-					<div class="section-inner">
-						<h4 class="jetpack-portfolio"><?php _e( 'Blog', 'fukasawa' ); ?></h4>
-						<div class="clear"></div>
-					</div><!-- .section-inner -->		
-			</div><!-- .page-title -->
-		<?php }; ?>
 	
 		<div class="posts" id="posts">
 

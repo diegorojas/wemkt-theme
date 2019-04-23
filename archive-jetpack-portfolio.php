@@ -11,7 +11,7 @@ get_header(); ?>
 	?>
 		<?php endif; ?>
 
-			<div class="page-title">
+			<!-- <div class="page-title">
 				
 				<div class="section-inner">
 		
@@ -20,9 +20,9 @@ get_header(); ?>
 							<div class="clear"></div>
 					</h4>
 							
-				</div><!-- .section-inner -->
+				</div>
 				
-			</div><!-- .page-title -->
+			</div> -->
 	
 		<div class="posts" id="posts">
 
